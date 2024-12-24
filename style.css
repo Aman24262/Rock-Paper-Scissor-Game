@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+#header{
+    height: 5rem;
+    width: 100%;
+    background-color: #ba10d4;
+}
+
+#header h1{
+    text-align: center;
+    line-height: 5rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+#pics img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+#Rock, #Paper, #Scissor {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#cal-score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+#userScore h1{
+    font-size: 4rem;
+}
+
+#userScore h2{
+    font-size: 2rem;
+}
+
+#compScore h1{
+    font-size: 4rem;
+}
+
+#compScore h2{
+    font-size: 2rem;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#resetBtn {
+    background-color: #ba10d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#msg{
+    font-size: 2rem;
+    background-color: #ba10d4;
+    display: inline;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+#script{
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+}
+
+#script2{
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+}
+
+@media (max-width: 477px) {
+
+    #pics{
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    #cal-score{
+        gap: 5rem;
+        margin-top: 2rem;
+    }
+
+    #Rock, #Paper, #Scissor {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    #msg{
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    #userScore h1{
+        font-size: 2.5rem;
+    }
+    
+    #userScore h2{
+        font-size: 1.5rem;
+    }
+    
+    #compScore h1{
+        font-size: 2.5rem;
+    }
+    
+    #compScore h2{
+        font-size: 1.5rem;
+    }
+
+    #header{
+        height: 2.5rem;
+    }
+    
+    #header h1{
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    #script{
+        position: absolute;
+        top: 28rem;
+        left: 1rem;
+    }
+    
+    #script2{
+        position: absolute;
+        top: 28rem;
+        right: 0.3rem;
+    }
+
+    #reset{
+        margin-top: 0.5rem;
+    }
+
+}
