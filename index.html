@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+
+        <div id="header">
+            <h1>Rock Paper Scissor Game</h1>
+        </div>
+
+        <div id="pics">
+             <img src="images/rock.png" alt="" id="Rock" class="choice">
+             <img src="images/paper.png" alt="" id="Paper" class="choice">
+             <img src="images/scissors.png" alt="" id="Scissor" class="choice">
+        </div>
+
+        <div id="cal-score">
+            <div id="userScore">
+                <h1 id="user-score">0</h1>
+                <h2>User</h2>
+            </div>
+    
+            <div id="compScore">
+                <h1 id="comp-score">0</h1>
+                <h2>Computer</h2>
+            </div>
+        </div>
+
+        <div id="reset">
+            <button id="resetBtn">Reset</button>
+        </div>
+
+        <div id="result">
+            <h1 id="msg">This Game is not started yet!</h1>
+        </div>
+
+    </div>
+
+    <div id="script">
+        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script> 
+        <dotlottie-player src="https://lottie.host/52603dcb-b4c1-406e-baaa-51a659ed7b8a/OIch4oU16d.json" background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay></dotlottie-player>
+    </div>
+
+    <div id="script2">
+        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+        <dotlottie-player src="https://lottie.host/5a31abdf-1f7e-4a2b-b4d0-62e60795d9ba/KD2FIpPhQ4.lottie" background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay></dotlottie-player>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
